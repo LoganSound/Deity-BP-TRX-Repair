@@ -1,18 +1,22 @@
 The Goal of this repo is:
 1. to document the internals of the Deity BP-TRX (assuming many similarities to the BP-TX) for repair and battery replacement purposes and
 2. document the firmware for possible reverse engineering modification and adding of features. Some features I have dreamed up:
+
    a. support MP3/M4a/Ogg recording formats internally
+
    b. Disable self monitoring in interface mode
+
    c. Explore VoIP capabilities over network adapter or WiFi?
 
 Full Photo album here: https://imgur.com/a/UUb3bIW
 
 Let's start with a teardown. You will need the following:
 
-Torx T-5 screwdriver
-small philips head screwdriver
-Needle nose tweezers (available inexpensively as watchmaking tools)
-pliers
+-Torx T-5 screwdriver
+
+-small philips head screwdriver
+-Needle nose tweezers (available inexpensively as watchmaking tools)
+-pliers
 
 Step 1. Preparation:
 Remove SD Card
