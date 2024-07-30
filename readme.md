@@ -31,4 +31,20 @@ Battery Text Reads:
 AP158 3.7V(10.36Wh)
 4.2V 2800mAh
 
-6. Reassemble using this process backwards, be VERY careful with wires protruding from board when sliding metal chassis back on
+Step 6. Reassemble using this process backwards, be VERY careful with wires protruding from board when sliding metal chassis back on
+
+
+Firmware analysis
+binwalk -Me /Users/andrewlogan/Downloads/Deity\ Connect\ BP-TRX\ V1.5/Deity_BP_TRX_Update.bin 
+
+Scan Time:     2024-07-29 22:26:14
+Target File:   Deity Connect BP-TRX V1.5/Deity_BP_TRX_Update.bin
+MD5 Checksum:  19d18953ece43c9edc11b9a08bdb34ca
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+208932        0x33024         CRC32 polynomial table, little endian
+726656        0xB1680         CRC32 polynomial table, little endian
+
+Opening in a hex editor reveals plain text menu items
