@@ -15,7 +15,9 @@ Let's start with a teardown. You will need the following:
 -Torx T-5 screwdriver
 
 -small philips head screwdriver
+
 -Needle nose tweezers (available inexpensively as watchmaking tools)
+
 -pliers
 
 Step 1. Preparation:
